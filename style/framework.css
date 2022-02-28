@@ -1,0 +1,430 @@
+/* WCST GRID  */
+
+
+/* THUMBNAIL / WORK GRID */
+
+.work-grid, .punch-grid, .portfolio-grid{
+	
+	max-width: 920px;
+	width: 92%;
+	margin: 30px auto 0;
+	overflow: auto;
+
+}
+	
+	.work-grid ul{
+		
+		overflow: auto;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		
+	}
+	
+	.work grid li{
+	
+		margin: 0;
+		padding: 0;
+	
+	}
+.punch-grid p{ font-size:0.9em;}
+/*
+	Based on 960 Grid System - http://960.gs/ & 960 Fluid - http://www.designinfluences.com/
+*/
+
+
+
+
+/* Stacks & Slats */
+
+.stack-fixed{
+	
+	max-width: 920px;
+	width: 92%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.stack-full{
+	
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.slat-1,
+.slat-2,
+.slat-3,
+.slat-4,
+.slat-5,
+.slat-6,
+.slat-7,
+.slat-8,
+.slat-9,
+.slat-10,
+.slat-11,
+.slat-12 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.first {
+	margin-left: 0;
+}
+
+.last {
+	margin-right: 0;
+}
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.slat-1 {
+	width:6.333%;
+}
+
+.slat-2 {
+	width:14.667%;
+}
+
+.slat-3 {
+	width:23.0%;
+}
+
+.slat-4 {
+	width:31.333%;
+}
+
+.slat-5 {
+	width:36.667%;
+
+}
+
+.slat-6 {
+	width:48.0%;
+}
+
+.slat-7 {
+	width:59.333%;
+}
+
+.slat-8 {
+	width:64.667%;
+}
+
+.slat-9 {
+	width:73.0%;
+}
+
+.slat-10 {
+	width:81.333%;
+}
+
+.slat-11 {
+	width:89.667%;
+}
+
+.slat-12 {
+	width:98.0%;
+}
+
+
+
+/* Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.prefix_1 {
+	padding-left:8.333%;
+}
+
+.prefix_2 {
+	padding-left:16.667%;
+}
+
+.prefix_3 {
+	padding-left:25.0%;
+}
+
+.prefix_4 {
+	padding-left:33.333%;
+}
+
+.prefix_5 {
+	padding-left:41.667%;
+}
+
+.prefix_6 {
+	padding-left:50.0%;
+}
+
+.prefix_7 {
+	padding-left:58.333%;
+}
+
+.prefix_8 {
+	padding-left:66.667%;
+}
+
+.prefix_9 {
+	padding-left:75.0%;
+}
+
+.prefix_10 {
+	padding-left:83.333%;
+}
+
+.prefix_11 {
+	padding-left:91.667%;
+}
+
+
+
+/* Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.suffix_1 {
+	padding-right:8.333%;
+}
+
+.suffix_2 {
+	padding-right:16.667%;
+}
+
+.suffix_3 {
+	padding-right:25.0%;
+}
+
+.suffix_4 {
+	padding-right:33.333%;
+}
+
+.suffix_5 {
+	padding-right:41.667%;
+}
+
+.suffix_6 {
+	padding-right:50.0%;
+}
+
+.suffix_7 {
+	padding-right:58.333%;
+}
+
+.suffix_8 {
+	padding-right:66.667%;
+}
+
+.suffix_9 {
+	padding-right:75.0%;
+}
+
+.suffix_10 {
+	padding-right:83.333%;
+}
+
+.suffix_11 {
+	padding-right:91.667%;
+}
+
+
+
+/* Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.push_1 {
+	left:8.333%;
+}
+
+.push_2 {
+	left:16.667%;
+}
+
+.push_3 {
+	left:25.0%;
+}
+
+.push_4 {
+	left:33.333%;
+}
+
+.push_5 {
+	left:41.667%;
+}
+
+.push_6 {
+	left:50.0%;
+}
+
+.push_7 {
+	left:58.333%;
+}
+
+.push_8 {
+	left:66.667%;
+}
+
+.push_9 {
+	left:75.0%;
+}
+
+.push_10 {
+	left:83.333%;
+}
+
+.push_11 {
+	left:91.667%;
+}
+
+
+
+/* Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.pull_1 {
+	left:-8.333%;
+}
+
+.pull_2 {
+	left:-16.667%;
+}
+
+.pull_3 {
+	left:-25.0%;
+}
+
+.pull_4 {
+	left:-33.333%;
+}
+
+.pull_5 {
+	left:-41.667%;
+}
+
+.pull_6 {
+	left:-50.0%;
+}
+
+.pull_7 {
+	left:-58.333%;
+}
+
+.pull_8 {
+	left:-66.667%;
+}
+
+.pull_9 {
+	left:-75.0%;
+}
+
+.pull_10 {
+	left:-83.333%;
+}
+
+.pull_11 {
+	left:-91.667%;
+}
+
+/* mobile griddles */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+	font-size: 16px;
+	-webkit-text-size-adjust: none;
+	}
+
+	.stack-fixed .slat-1, 
+	.stack-fixed .slat-2, 
+	.stack-fixed .slat-3, 
+	.stack-fixed .slat-4, 
+	.stack-fixed .slat-5, 
+	.stack-fixed .slat-6, 
+	.stack-fixed .slat-7, 
+	.stack-fixed .slat-8, 
+	.stack-fixed .slat-9, 
+	.stack-fixed .slat-10, 
+	.stack-fixed .slat-11, 
+	.stack-fixed .slat-12,
+	.work-grid 	 .slat-3.nail {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 20px;
+		padding-right: 20px;
+		}
+	
+	.stack-fixed .logo-icon{
+		width:33%;
+		margin: 0;
+		padding: 0;
+	}
+	
+	body.work .slat-1{
+		padding:0;
+		width: 100%;
+	}
+
+	.work-grid{
+		width: 100%;
+		padding: 0;
+	}
+
+}
+
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
